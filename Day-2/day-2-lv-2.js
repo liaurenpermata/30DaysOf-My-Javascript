@@ -29,9 +29,9 @@ let lengthString = words1.length;
 console.log(words1[Math.floor(Math.random() * (lengthString-0) + 0)])
 //Number 11
 console.log('1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125')
-//Number 12
-// let stringSentence = 'You cannot end a sentence with because because because is a conjunction'
-// console.log(stringSentence.substring(10, 3))
+// Number 12
+let stringSentence = 'You cannot end a sentence with because because because is a conjunction'
+console.log(stringSentence.substr(31, 24))
 //Belum ketemu jawabannya
 
 console.log('====================================')
